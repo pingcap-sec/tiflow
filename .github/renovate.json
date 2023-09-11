@@ -3,7 +3,9 @@
   "extends": [
     "config:base"
   ],
-  "prCreation": "status-success",
+  "postUpdateOptions": [
+    "gomodTidy"
+  ],
   "dependencyDashboardApproval": true,
   "labels": ["dependencies"],
   "vulnerabilityAlerts": {
