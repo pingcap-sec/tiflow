@@ -105,7 +105,7 @@ require (
 	golang.org/x/text v0.6.0
 	golang.org/x/time v0.2.0
 	google.golang.org/genproto v0.0.0-20221201164419-0e50fba7f41c
-	google.golang.org/grpc v1.50.1
+	google.golang.org/grpc v1.56.3
 	google.golang.org/protobuf v1.28.1
 	gopkg.in/yaml.v2 v2.4.0
 	gorm.io/driver/mysql v1.3.3
