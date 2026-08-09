@@ -1,6 +1,6 @@
 module github.com/pingcap/tiflow
 
-go 1.20
+go 1.23.0
 
 require (
 	cloud.google.com/go/storage v1.28.1
@@ -102,7 +102,7 @@ require (
 	go.uber.org/zap v1.24.0
 	golang.org/x/exp v0.0.0-20221023144134-a1e5550cf13e
 	golang.org/x/net v0.10.0
-	golang.org/x/oauth2 v0.8.0
+	golang.org/x/oauth2 v0.27.0
 	golang.org/x/sync v0.1.0
 	golang.org/x/sys v0.8.0
 	golang.org/x/text v0.9.0
@@ -118,8 +118,7 @@ require (
 
 require (
 	cloud.google.com/go v0.110.0 // indirect
-	cloud.google.com/go/compute v1.19.0 // indirect
-	cloud.google.com/go/compute/metadata v0.2.3 // indirect
+	cloud.google.com/go/compute/metadata v0.3.0 // indirect
 	cloud.google.com/go/iam v0.13.0 // indirect
 	github.com/Azure/azure-sdk-for-go/sdk/azcore v0.20.0 // indirect
 	github.com/Azure/azure-sdk-for-go/sdk/azidentity v0.12.0 // indirect
